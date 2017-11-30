@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.09.2017, 15:39:38
+    Author     : johnpyar
+*/
+
+/* Заголовок с лого и меню */
+body {
+    width: 1400px;
+    -width: 100%;
+}
+.Main_Header {
+    height: 116px;
+    background-color: red;
+    padding-left: 190px;
+    padding-right: 190px;
+    
+}
+.Main_Header div {
+    display: inline-block;
+}
+.Logo {
+    font-size: 36px;
+    text-transform: capitalize;
+    float: left;
+    background-color: green;
+    line-height: 116px;
+    text-align: center;
+    text-align-last: center;
+}
+.Logo span {
+    text-transform: uppercase;
+}
+.Menu {
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    background-color: yellow;
+    height: 55px;
+    width: 610px;
+    margin-top: calc(116px - 55px);
+}
+.Menu ul {
+    background-color: orange;
+    height: 55px;
+    font-size: 0;
+    padding: 0;
+    text-align: justify;
+    text-align-last: justify;
+    
+}
+.Menu ul li {
+    display: inline-block;
+    background-color: blue;
+    -margin-left: 20px;
+    list-style: none;
+    height: 55px;
+    vertical-align: top;
+    width: 15%;
+    text-align: center;
+    text-align-last: center;
+}
+.Menu a {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    -background-color: yellow;
+    /* высота меньше на подчеркивание 
+    при наведении на ссылку*/
+    height: 50px;
+    font-size: 14px;
+
+}
+.Menu a:hover {
+    border-bottom: solid 5px;
+}
+
+/* конец Заголовка */
+
+/* Главный слайд */
+.Main_slide {
+    height: 580px;
+    -background-color: #ccffff;
+    background-image: url(Main_Slide.png);
+}

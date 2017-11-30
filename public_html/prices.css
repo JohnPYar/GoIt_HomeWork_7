@@ -1,0 +1,169 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09.08.2017, 16:28:12
+    Author     : johnpyar
+*/
+
+.Prices {
+    font-family: 'Trebuchet MS';
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.offer {
+    display: inline-block;
+    margin-top: 25px;
+}
+.Best_Value {
+    height: 465px;
+    width: 295px;
+    border: 4px solid #ee8129;
+    border-radius: 0.3em; 
+    box-shadow: 0 0 5px background;
+    margin: 0 -9px;
+    position: relative;
+    top: -35px;
+}
+.Standard, 
+.Ultimate {
+    width: 295px;
+    height: 440px;
+    border: 1px solid gainsboro;
+    border-radius: 0.3em;
+    /* убираем вылезание заливки за 
+    границу родительского блока */
+    overflow: hidden;
+
+}
+.Header {
+    -position: relative;
+    /* вместо размеров блока
+    задаем отступы внутренние в em */
+    -width: 100%;
+    -height: 20%;
+    padding: 1em 0;
+
+    color: white;
+    background-color: #ee8129;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    -background-color: red; 
+}
+.Standard .Header {
+    background-color: #37c2d3;
+    padding-top: 18px;
+    padding-bottom: 18px; 
+}
+.Ultimate .Header {
+    background-color: #1cb79a;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.Block_1 {
+    font-size: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.7em 0;
+    -background-color: yellow;
+}
+.Block_2 {
+    font-size: 72px;
+    text-align: center;
+    -padding: 0.1em 0;
+    -background-color: red;
+    -line-height: 130%;
+    -text-height: font-size;
+    margin-bottom: 0;
+}
+sup {
+    font-size: 20px;
+    position: relative;
+    top: -0.8em;
+}
+sub {
+    font-size: 18px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.Block_3 {
+    list-style-image: url(list_mark.png);
+    font-size: 15px;
+    list-style-position: inside;
+    -background-color: yellow;
+    padding: 1px;
+    text-align: left;
+}
+.Prices ul {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25px;
+    padding-left: 0;
+    background-color: #edf5fd;
+    line-height: 30px;
+}
+.Prices li:nth-of-type(2n) {
+    background-color: #f5f5f6;
+}
+.Prices li {
+    border-bottom: 1px solid white;
+    padding-left: 30px;
+}
+.Line1, 
+.Line2 {
+    text-transform: uppercase;
+}
+.Standard .Line1,
+.Standard .Line2 {
+    text-transform: capitalize;
+}
+.Ultimate .Line1,
+.Ultimate .Line2{
+    text-transform: capitalize;
+}
+.Ultimate .Line2 span {
+    text-transform: uppercase;
+}
+.Line3 {
+    text-transform: capitalize;
+}
+.Line3 span {
+    text-transform: none;
+}
+.Ultimate .Line3 span {
+    text-transform: uppercase;
+}
+.Line4 {
+    text-transform: capitalize;
+}
+.Line4 span {
+    text-transform: none;
+}
+.Block_4 {
+    text-align: center;
+    padding: 0.2em 0;
+}
+button {
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 73px;
+    border-radius: 0.3em;
+    background-color: #ee8129;
+    border: 0;
+    color: white;
+    border-bottom: 3px solid #b3560b;
+}
+[class*='Block'] a {
+    text-decoration: none;
+}
+[class*='Block'] a:hover {
+    color: white;
+}
